@@ -3,8 +3,8 @@ import json
 import time
 
 # --- Ваши учетные данные (ПРОВЕРЬТЕ ИХ ОЧЕНЬ ВНИМАТЕЛЬНО) ---
-CLIENT_ID = 'UN7FDONASH7MNUHMG9Q9L0U4QH11VR2K6B8696KBBIG96P3DUTVVTHHMFS71K9KL'
-CLIENT_SECRET = 'RKAKGKBR76LV6KBN38EBVH962M0S9NOM9MOA0S2GR59C8T4FRA43IQL6HOUFV27B'
+CLIENT_ID = 'ВАШ_CLIENT_ID' # Вставьте ваш Client ID
+CLIENT_SECRET = 'ВАШ_CLIENT_SECRET' # Вставьте ваш Client Secret
 
 # --- Адреса API ---
 AUTH_URL = 'https://hh.ru/oauth/token'
