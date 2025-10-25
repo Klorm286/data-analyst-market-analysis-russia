@@ -4,3 +4,5 @@
 
 # Игнорируем системные папки Python
 __pycache__/
+
+config.py
