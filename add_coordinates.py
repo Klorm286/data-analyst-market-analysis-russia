@@ -14,7 +14,7 @@ def add_coordinates_to_data(input_file='vacancies_final_dataset.csv', output_fil
 
     df = pd.read_csv(input_file)
     
-    # Создаем "очищенное" поле города, как мы делали в Tableau
+    # Создаем "очищенное" поле города
     df['city_clean'] = df['city'].apply(lambda x: str(x).split('(')[0].strip())
 
     # Получаем список уникальных городов для геокодирования
